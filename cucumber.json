@@ -1,0 +1,167 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-09T19:22:45.615Z",
+        "line": 4,
+        "name": "Option to signOn when user is on the landing page",
+        "description": "",
+        "id": "navigate-to-signon-button-\u0026-go-to-signon-page;option-to-signon-when-user-is-on-the-landing-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10876000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the home page",
+            "match": {
+              "location": "features.step_definitions.signOn.iAmOnTheLandingPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3781000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the signOn button",
+            "match": {
+              "location": "features.step_definitions.signOn.iClickOnSignOnButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 126000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter an valid email data \"saidoundjahid@gmail.com\"",
+            "match": {
+              "location": "features.step_definitions.signOn.iEnterValidEmailData()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on create an account button",
+            "match": {
+              "location": "features.step_definitions.signOn.iClickOnCreateAnAccountButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@id\u003d\"id_gender1\"]\"}\n  (Session info: chrome\u003d102.0.5005.63)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LBNL822538\u0027, ip: \u0027192.168.0.232\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_333\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\\Users\\dsaidoun\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:59293}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 32479f1ea1846aaa05c8bbdb37ae114a\n*** Element info: {Using\u003dxpath, value\u003d//input[@id\u003d\"id_gender1\"]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat features.step_definitions.signOn.informationFillingPartOne(signOn.java:68)\r\n\tat ✽.user select Title and fill in registration data \"djahid\" and \"saidoun\" and \"saidoundjahid@gmail.com\" and \"123456\"(file:///C:/Users/dsaidoun/Desktop/trial/src/test/java/features/signOn.feature:9)\r\n",
+              "duration": 48000000,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "user select Title and fill in registration data \"djahid\" and \"saidoun\" and \"saidoundjahid@gmail.com\" and \"123456\"",
+            "match": {
+              "location": "features.step_definitions.signOn.informationFillingPartOne()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "enter \"djahid\" and \"saidoun\" and \"sogeti\" and \"18, BessenveldStraat\" and \"Diegem\"",
+            "match": {
+              "location": "features.step_definitions.signOn.informationFillingPartTwo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "select \"alabama\" in state",
+            "match": {
+              "location": "features.step_definitions.signOn.stateAlabamaChoose()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "enter \"1830\" in zipcode field",
+            "match": {
+              "location": "features.step_definitions.signOn.informationFillingPartThree()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "select \"United States\" in country list",
+            "match": {
+              "location": "features.step_definitions.signOn.countryChoose()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "enter \"23254628\" in phone field and \"alias\" in alias field",
+            "match": {
+              "location": "features.step_definitions.signOn.informationFillingPartFour()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "click on \"register button\" at the end of the page",
+            "match": {
+              "location": "features.step_definitions.signOn.clickOnRegister()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user is successfully registered and his data are validated",
+            "match": {
+              "location": "features.step_definitions.signOn.successDataRegistration()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@signOn"
+          }
+        ]
+      }
+    ],
+    "name": "navigate to signOn button \u0026 go to signOn page",
+    "description": "",
+    "id": "navigate-to-signon-button-\u0026-go-to-signon-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/signOn.feature",
+    "tags": []
+  }
+]
